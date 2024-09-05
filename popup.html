@@ -1,0 +1,72 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="popup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+    <title>Popup</title>
+    <script src="check_status.js"></script>
+    <script src="jquery_local.js"></script>
+</head>
+
+<body>
+    <div class="main_div">
+        <div class="logo_div">
+            <img src="logo_openfxt.png" width="55" height="35">
+        </div>
+        <div class="text_div">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3 class="animate-charcter">GPT Unlock Plus Extension</h3>
+                </div>
+            </div>
+        </div>
+        <div class="input_div">
+            <div class="inputbox">
+                <input type="email" id="emailInput" required="required">
+                <span>EMAIL YOUR GPT ACCOUNT</span>
+            </div>
+        </div>
+        <div class="check_div">
+            <main>
+                <input type="checkbox" id="i">
+
+                <label for="i" class="checkbox">
+                    <div class="checkbox__inner">
+                        <div class="green__ball"></div>
+                    </div>
+                </label>
+                <div class="checkbox__text">
+                    <span>CONTINUOUS UNLOCKING:</span>
+                    <div class="checkbox__text--options">
+                        <span class="off">OFF</span>
+                        <span class="on">ON</span>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <div class="btn_div">
+            <a href="#" id="unlockButton" class="animated-button1">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Unlock
+            </a>
+        </div>
+        <div class="power_div">
+            <span style="font-size: 14px; color: #ffffff;">Powered by <a href="https://openfxt.vercel.app/"
+                    style="text-decoration: none; color: #007bff;">OpenFXT</a></span>
+        </div>
+        <div class="text_run_div">
+            <div class="word"></div>
+        </div>
+    </div>
+    <script src="text_animation.js"></script>
+    <script src="popup.js"></script>
+</body>
+
+</html>
